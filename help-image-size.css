@@ -1,3 +1,4 @@
+/* ----- Help Page Images ----- */
 .help-image {
   width: 60%;
   max-width: 400px;
@@ -11,4 +12,42 @@
     width: 90%;
     max-width: 300px;
   }
+}
+
+
+/* ----- Footer Styling (Compact + Centered) ----- */
+.help-footer {
+  text-align: center;
+  padding: 25px 0;
+  margin-top: 40px;
+  background: none; /* keeps dark theme clean */
+  color: #c9a9ff;
+}
+
+.footer-title {
+  margin-bottom: 15px;
+  font-size: 1rem;
+  opacity: 0.8;
+}
+
+.footer-link-row {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap; /* clean mobile layout */
+  margin-top: 10px;
+}
+
+.footer-btn {
+  padding: 8px 14px;
+  border-radius: 6px;
+  text-decoration: none;
+  border: 1px solid #4b2a99;
+  color: #c6b2ff;
+  transition: 0.2s ease;
+}
+
+.footer-btn:hover {
+  background: #4b2a99;
+  color: white;
 }
